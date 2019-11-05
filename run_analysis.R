@@ -2,7 +2,7 @@
 #In following lines i describe in a simple way how my code works and all the transformation applyed in the datasets.
 
 ######################################################################################
-############################## LOADING PACKAGE #######################################
+#############################i LOADING PACKAGE #######################################
 ######################################################################################
 #The only external package I use for solve the assignment is dplyr, which normally is not include in R core. 
 #If you have not installed this package, then you can use the following instruction: ìnstall.packages('dplyr').
