@@ -1,6 +1,7 @@
 # CodeBook
 The purpose of this document is to describe data and any transformation performed to clean up the original data set.
 
+## Original data set
 Original datasets are described by following lines.
 1. features_info.txt: Shows information about the variables used on the feature vector.
 2. features.txt: List of all features.
@@ -29,14 +30,13 @@ All files described were used to create only one tidy data following this genera
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-All steps and the script that perform all the analysis are contained in 'run_analysis.R' file. The final tidy data set named 'tidyData.csv' is dataframe with 180 obs. of  85 variables. The variables names are described below:
-
-
+## Tidy data set
+All steps and the script that perform all the analysis are contained in 'run_analysis.R' file. The final tidy data set named 'tidyData.csv' is dataframe with 180 obs. of  85 variables. The variables names are described in the rest of the document:
 
 * subject: the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 * label: it indicate the activity name performed by the subject.
 
-The following description indicates the calculation procedure applied to original data. I considerate very important put all descripction here to understand variable names.
+Following description indicates the calculation procedure applied to original data. I considerate very important put all descripction here to understand all the rest of variable names.
 
 'The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
